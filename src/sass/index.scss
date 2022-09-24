@@ -1,2 +1,34 @@
-@import './common';
-@import './example';
+// UTILS
+@import './utils/variables';
+@import "./utils/visually-hidden";
+@import "./components/mixin";
+
+// BASE
+@import './base/reset';
+@import './base/main-rules';
+@import './base/conteiner';
+@import './base/normalize';
+
+// Components
+// @import "./components/title";
+@import "./components/logo";
+// @import "./components/button-primary";
+// @import "./components/backdrop-modal";
+// @import "./components/form";
+// @import "./components/overlay-portfolio";
+// @import "./components/mobile-menu";
+
+// layout
+@import './layout/header';
+@import './layout/hero';
+// @import './layout/section-features';
+// @import './layout/section-made';
+// @import './layout/section-team';
+// @import './layout/section-customer';
+// @import './layout/footer';
+// @import './layout/page-portfolio';
+
+// Animation
+// @import "./themes/animation";
+
+

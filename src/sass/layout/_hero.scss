@@ -1,0 +1,101 @@
+// .masthead {
+//   background-image: url("fallback-light@1x.png");
+//   background-image: image-set(
+//     url("light@1x.webp") 1x,
+//     url("light@2x.webp") 2x,
+//     url("fallback-light@1x.png") 1x,
+//     url("fallback-light@2x.png") 2x
+//   );
+// }
+
+.hero {
+  @include centeredFlex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/home/showcase.jpg);
+
+  text-align: center;
+  margin: 0 auto;
+  min-width: 320px;
+  min-height: 533px;
+  background-size: cover;
+  // background-color: var(--bgc-hero-footer);
+  }
+  // @media (min-device-pixel-ratio: 2),
+  // (-webkit-min-device-pixel-ratio: 2),
+  // (min-resolution: 192dpi),
+  // (min-resolution: 2dppx) {
+  // .hero {
+  //   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/home/showcase.jpg);
+  // }
+// }
+
+// @media screen and (min-width: 768px) {
+//   .hero {
+//     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+//     url(../images/hero/hero-tablet.jpg);
+//     max-width: 768px;
+//     height: 400px;
+//     background-size: 768px 400px;
+//   }
+//   @media (min-device-pixel-ratio: 2),
+//   (-webkit-min-device-pixel-ratio: 2),
+//   (min-resolution: 192dpi),
+//   (min-resolution: 2dppx) {
+//   .hero {
+//     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+//     url(../images/hero/hero-tablet@2x.jpg);
+//   }
+// }
+// }
+
+// @media screen and (min-width: 1200px) {
+//   .hero {
+//     max-width: 1600px;
+//     height: 600px;
+//     background-size: 1600px 600px;
+//     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+//     url(../images/hero/hero.jpg);
+//     }
+//     @media (min-device-pixel-ratio: 2),
+//     (-webkit-min-device-pixel-ratio: 2),
+//     (min-resolution: 192dpi),
+//     (min-resolution: 2dppx) {
+//     .hero {
+//       background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+//       url(../images/hero/hero@2x.jpg);
+//     }
+//   }
+// }
+
+.hero__title {
+
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 54px;
+  text-align: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 30px;
+
+  width: 201px;
+
+  // letter-spacing: 0.06em;
+  // text-transform: uppercase;
+}
+// @media screen and (max-width: 1199px) {
+//   .hero__title {
+//     font-size: 26px;
+//     line-height: 1.62;
+//     max-width: 360px;
+//   }
+// }
+// @media screen and (min-width: 1200px) {
+//   .hero__title {
+//     font-size: 44px;
+//     line-height: 1.4;
+//     max-width: 696px;
+//   }
+// }
