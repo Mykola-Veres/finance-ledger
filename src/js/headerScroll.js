@@ -12,7 +12,9 @@ document.addEventListener('scroll', function (event) {
   console.log('headerDimensions', headerDimensions);
 
   if (scrollPosition >= headerDimensions) {
-    headerEl.classList.toggle('header-scroll');
+    headerEl.classList.add('header-scroll');
     // headerEl.style.opacity = 0.8;
+  } else {
+    headerEl.classList.remove('header-scroll');
   }
 });

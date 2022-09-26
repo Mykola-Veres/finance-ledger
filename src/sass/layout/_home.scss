@@ -1,0 +1,46 @@
+.home__conteiner{
+  background: var(--primari-section-color);
+  color: var(--primary-text-color);
+  @include centeredFlex;
+  flex-direction: column;
+}
+
+.home__text-conteiner{
+  padding-bottom: 79px;
+  padding-top: 79px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.home__text{
+  line-height: 22px;
+  width: 280px;
+}
+
+.home__title{
+font-size: 32px;
+line-height: 44px;
+margin-top: 16px;
+margin-bottom: 24px;
+width: 280px;
+}
+
+.home__button{
+  margin-top: 24px;
+  width: 146px;
+  height: 54px;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: inherit;
+  color: inherit;
+  background-color: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--primary-text-color);
+    color: var(--primari-section-color);
+    border-color: var(--primari-section-color);
+}
+}

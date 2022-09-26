@@ -16,11 +16,13 @@
 // @import "./components/backdrop-modal";
 // @import "./components/form";
 // @import "./components/overlay-portfolio";
-// @import "./components/mobile-menu";
+@import "./layout/home";
 
 // layout
 @import './layout/header';
 @import './layout/hero';
+@import './layout/cases';
+@import './layout/blog';
 // @import './layout/section-features';
 // @import './layout/section-made';
 // @import './layout/section-team';

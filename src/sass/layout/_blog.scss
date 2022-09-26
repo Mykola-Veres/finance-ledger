@@ -1,0 +1,33 @@
+.blog-text__conteiner{
+  padding-bottom: 58px;
+  padding-top: 48px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.blog__conteiner{
+  background: var(--secondery-section-color);
+  color: var(--primary-text-color);
+  @include centeredFlex;
+  flex-direction: column;
+}
+
+.blog__button{
+  width: 172px;
+  height: 54px;
+  margin-top: 24px;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: inherit;
+  color: inherit;
+  background-color: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--primary-text-color);
+    color: var(--secondery-section-color);
+    border-color: var(--secondery-section-color);
+}
+}
