@@ -1,0 +1,39 @@
+<section id="contact" class="conteiner callback">
+  <div>
+    <picture>
+      <source
+        srcset="./images/home/contact.webp 1x, ./images/home/contact@2x.webp 2x"
+        type="image/webp"
+      />
+      <source
+        srcset="./images/home/contact.jpg 1x, ./images/home/contact@2x.jpg 2x"
+      />
+      <img src="#" alt="photo" />
+    </picture>
+  </div>
+  <h2 class="callback__title">Request Callback</h2>
+  <form class="callback__form">
+    <input
+      class="callback__input"
+      type="text"
+      name="name"
+      pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
+      title="This is a required field"
+      placeholder="Enter your name"
+      minlength="2"
+      maxlength="60"
+      required
+    />
+    <input
+      class="callback__input"
+      type="email"
+      name="email"
+      pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
+      placeholder="Enter email*"
+      title="This is a required field"
+      maxlength="60"
+      required
+    />
+    <button class="button callback__button">Send</button>
+  </form>
+</section>

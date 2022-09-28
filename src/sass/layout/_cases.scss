@@ -17,10 +17,6 @@
 }
 .cases__title{
   color: var(--secondery-text-color);
-  font-size: 32px;
-  line-height: 44px;
-  margin-top: 16px;
-  margin-bottom: 24px;
   width: 219px;
   text-align: center;
 }
@@ -30,4 +26,12 @@
 
 .cases__item:not(:last-child) {
   margin-bottom: 8px;
+}
+
+.cases__link{
+  opacity: 1;
+  :hover,
+  :focus{
+    opacity: 0.8;
+  }
 }

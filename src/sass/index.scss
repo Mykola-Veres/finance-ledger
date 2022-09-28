@@ -10,27 +10,22 @@
 @import './base/normalize';
 
 // Components
-// @import "./components/title";
 @import "./components/logo";
-// @import "./components/button-primary";
+@import "./components/title";
+@import "./components/button";
 // @import "./components/backdrop-modal";
-// @import "./components/form";
 // @import "./components/overlay-portfolio";
-@import "./layout/home";
 
 // layout
 @import './layout/header';
 @import './layout/hero';
 @import './layout/cases';
 @import './layout/blog';
-// @import './layout/section-features';
-// @import './layout/section-made';
-// @import './layout/section-team';
-// @import './layout/section-customer';
-// @import './layout/footer';
-// @import './layout/page-portfolio';
+@import "./layout/home";
+@import "./layout/team";
+@import "./layout/callback";
+@import './layout/footer';
 
 // Animation
 // @import "./themes/animation";
-
 
