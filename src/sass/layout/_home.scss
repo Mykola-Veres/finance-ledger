@@ -21,13 +21,13 @@
 .home__text-conteiner{
   padding-bottom: 79px;
   padding-top: 79px;
-  @media screen and (max-width: 767px) {
+}
+@media screen and (max-width: 767px) {
     .home__text-conteiner {
       padding-left: 20px;
       padding-right: 20px;
     }
   }
-}
 @media screen and (min-width: 768px) {
   .home__text-conteiner {
     padding-right: 32px;
