@@ -1,2 +1,0 @@
-!function(){var o=window.innerWidth;console.log("scroll",o);var e=document.querySelector(".header");console.log("headerEl",e.style.opacity),document.addEventListener("scroll",(function(l){var r=window.scrollY;console.log("scroll",r);var s=o<768?120:70;console.log("headerDimensions",s),r>=s?e.classList.add("header-scroll"):e.classList.remove("header-scroll")}))}();
-//# sourceMappingURL=index.4899f35b.js.map

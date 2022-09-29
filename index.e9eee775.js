@@ -1,2 +1,0 @@
-const o=window.innerWidth;console.log("scroll",o);const e=document.querySelector(".header");console.log("headerEl",e.style.opacity),document.addEventListener("scroll",(function(l){const s=window.scrollY;console.log("scroll",s);const c=o<768?120:70;console.log("headerDimensions",c),s>=c?e.classList.add("header-scroll"):e.classList.remove("header-scroll")}));
-//# sourceMappingURL=index.e9eee775.js.map
