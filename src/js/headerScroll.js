@@ -13,7 +13,6 @@ document.addEventListener('scroll', function (event) {
 
   if (scrollPosition >= headerDimensions) {
     headerEl.classList.add('header-scroll');
-    // headerEl.style.opacity = 0.8;
   } else {
     headerEl.classList.remove('header-scroll');
   }
