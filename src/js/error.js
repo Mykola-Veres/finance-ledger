@@ -5,6 +5,7 @@ form.addEventListener('submit', e => {
   const inputs = form.querySelectorAll('input');
   inputs.forEach(input => {
     input.previousElementSibling.classList.remove('callback__error-show');
+    console.log('input.previousElementSibling', input.previousElementSibling);
 
     if (input.checkValidity()) {
       input.previousElementSibling.classList.add('callback__error-show');

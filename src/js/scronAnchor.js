@@ -1,7 +1,5 @@
 const anchors = document.querySelectorAll('a.scroll-to');
 
-console.log('anchors', anchors);
-
 for (let anchor of anchors) {
   anchor.addEventListener('click', function (e) {
     e.preventDefault();
