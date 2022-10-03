@@ -1,5 +1,4 @@
 [build]
-  base = "finance-ledger"
   publish = "build"
 
 [[redirects]]
