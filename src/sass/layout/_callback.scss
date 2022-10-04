@@ -116,9 +116,10 @@
 
 .callback__input-wraper{
   position: relative;
-  :not(:last-child){
-    margin-bottom: 16px;
-  }
+}
+
+.callback__input-margin{
+  margin-bottom: 20px;
 }
 .callback__input-label{
   position: absolute;
